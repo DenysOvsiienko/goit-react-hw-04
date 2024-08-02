@@ -10,7 +10,6 @@ const ImageModal = ({ modalState, onModalClose }) => {
       overlayClassName={css.modalOverlay}
       isOpen={modalState.modalIsOpen}
       onRequestClose={onModalClose}
-      preventScroll={true}
     >
       <img src={modalState.srcUrl} alt={modalState.altDescription} />
       <ul className={css.modalInfoList}>
