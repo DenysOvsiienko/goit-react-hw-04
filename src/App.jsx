@@ -64,6 +64,7 @@ function App() {
   useEffect(() => {
     async function getImagesData() {
       try {
+        setError(false);
         if (query === '') {
           setShowLoadMoreBtn(false);
           return;
