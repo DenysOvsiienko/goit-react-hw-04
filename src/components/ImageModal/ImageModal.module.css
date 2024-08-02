@@ -11,6 +11,7 @@
   border-radius: 16px;
   padding: 12px;
 }
+
 .modalOverlay {
   position: fixed;
   top: 0;
@@ -22,7 +23,7 @@
   background-color: #000000a1;
   backdrop-filter: blur(20px);
   overflow: hidden;
-  z-index: 999;
+  z-index: 1000;
 }
 
 .modal img {
